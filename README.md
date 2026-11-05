@@ -34,19 +34,21 @@ O cabeçalho e o rodapé são **iguais em todas as páginas** e estão copiados 
 | Política de Privacidade             | https://meyrx.com.br/privacidade/      |
 | Exclusão de conta (Segurança dos dados) | https://meyrx.com.br/excluir-conta/ |
 
-## Placeholders a preencher
+## Apps publicados
 
-Procure no projeto por `{{` (por exemplo, `git grep -n "{{"`):
+| App      | Pacote                     |
+| -------- | -------------------------- |
+| Mensalix | `com.joaomeira.mensalix`   |
 
-- `{{TELEFONE}}`: página inicial e suporte.
-- `{{NOME_DO_APP}}`, `{{CATEGORIA}}`, `{{DESCRICAO_CURTA_DO_APP}}`, `{{PACOTE_DO_APP}}`: card de app na página inicial.
-- `{{PREENCHER: ...}}`: Política de Privacidade e Exclusão de conta. Esses itens aparecem destacados em amarelo no site até serem preenchidos.
+## Conteúdo pendente
+
+No momento, não há nada pendente. Se precisar marcar um trecho para preencher depois, use `<mark class="todo">{{PREENCHER: ...}}</mark>`: ele aparece destacado em amarelo no site. Para listar os pendentes, rode `git grep -n "{{PREENCHER"`.
 
 ## Como adicionar um novo app
 
 1. **Página inicial** (`index.html`): duplique o bloco `<article class="card app-card">` que está entre os comentários `CARD DE APP`.
 2. **Privacidade** (`privacidade/index.html`): duplique o bloco `<section>` entre os comentários `SEÇÃO DE APP` (14.1, 14.2, …).
-3. Se o app tiver outro caminho de exclusão de conta, ajuste `excluir-conta/index.html`.
+3. Inclua os passos de exclusão de dados do novo app em `excluir-conta/index.html`. Hoje a página descreve o caminho do Mensalix.
 4. Atualize a data de "Última atualização" nas páginas alteradas e o `<lastmod>` no `sitemap.xml`.
 
 ## Testar localmente
