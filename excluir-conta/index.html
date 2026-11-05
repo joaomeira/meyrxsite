@@ -45,70 +45,78 @@
     <header class="page-header">
       <div class="container">
         <h1>Exclusão de conta e de dados</h1>
-        <p>Como pedir a exclusão da sua conta e dos dados pessoais nos apps da MEYRX. Não é preciso fazer login neste site.</p>
+        <p>Como apagar seus dados dos apps da MEYRX. Não é preciso fazer login neste site.</p>
       </div>
     </header>
 
     <div class="container doc">
       <div class="prose">
-        <p>Esta página vale para todos os aplicativos publicados pela <strong>MEYRX</strong> (65.304.058 JOAO VICTOR MEIRA BARROS, CNPJ 65.304.058/0001-74) na Google Play Store. Você pode pedir a exclusão a qualquer momento, sem custo.</p>
-
-        <h2 id="pelo-app">Opção 1: pelo próprio app</h2>
-        <p>Se o app tiver a opção de excluir a conta:</p>
-        <ol class="steps">
-          <li>Abra o app e faça login na conta que quer excluir.</li>
-          <li>Vá em <mark class="todo">{{PREENCHER: caminho no app, ex.: Configurações &gt; Conta &gt; Excluir conta}}</mark>.</li>
-          <li>Confirme a exclusão. Sua conta é desativada na hora e os dados são apagados no prazo indicado abaixo.</li>
-        </ol>
-
-        <h2 id="por-email">Opção 2: por e-mail (funciona sempre, mesmo sem o app instalado)</h2>
-        <ol class="steps">
-          <li>Envie um e-mail para <a href="mailto:contato@meyrx.com.br?subject=Exclus%C3%A3o%20de%20conta">contato@meyrx.com.br</a> com o assunto <strong>"Exclusão de conta"</strong>.</li>
-          <li>No texto, informe o <strong>nome do app</strong> e o <strong>e-mail ou identificador da conta</strong> que deseja excluir. Envie, de preferência, a partir do mesmo e-mail cadastrado.</li>
-          <li>Podemos pedir uma confirmação simples de identidade, para evitar que outra pessoa apague sua conta.</li>
-          <li>Você receberá uma confirmação por e-mail quando a exclusão for concluída.</li>
-        </ol>
+        <p>Esta página vale para os aplicativos publicados pela <strong>MEYRX</strong> (65.304.058 JOAO VICTOR MEIRA BARROS, CNPJ 65.304.058/0001-74) na Google Play Store, incluindo o <strong>Mensalix</strong>.</p>
 
         <div class="callout">
-          <p><strong>Prazo de atendimento:</strong> confirmamos o recebimento do pedido em até <strong>5 dias úteis</strong> e concluímos a exclusão em até <strong>30 dias</strong>.</p>
+          <p><strong>Os apps da MEYRX não criam conta nos nossos servidores.</strong> Os dados ficam no seu aparelho e, se você ativou o backup, no seu próprio Google Drive. Por isso, você mesmo pode apagar tudo, a qualquer momento e sem custo, seguindo os passos abaixo. Se preferir, ou se precisar de ajuda, peça por e-mail (<a href="#por-email">opção 4</a>).</p>
+        </div>
+
+        <h2 id="backup">1. Desconectar o Google e parar o backup (no app)</h2>
+        <ol class="steps">
+          <li>Abra o Mensalix.</li>
+          <li>Vá em <strong>Ajustes → Backup → Desativar backup</strong>.</li>
+          <li>Pronto: o app deixa de enviar backups ao seu Google Drive e se desconecta da sua conta Google.</li>
+        </ol>
+
+        <h2 id="drive">2. Apagar o backup do Google Drive</h2>
+        <p>Desativar o backup não apaga as cópias que já foram salvas. Para apagá-las:</p>
+        <ol class="steps">
+          <li>Abra o <a href="https://drive.google.com/drive/settings" rel="noopener">Google Drive no computador</a> e entre na mesma conta Google usada no app.</li>
+          <li>Clique na engrenagem → <strong>Configurações → Gerenciar apps</strong>.</li>
+          <li>Encontre o <strong>Mensalix</strong>, clique em <strong>Opções</strong> → <strong>Excluir dados ocultos do app</strong> e confirme.</li>
+        </ol>
+        <p>Para também retirar o acesso do app à sua conta Google, acesse <a href="https://myaccount.google.com/connections" rel="noopener">Conta do Google → Apps e serviços de terceiros</a>, escolha o Mensalix e remova o acesso.</p>
+
+        <h2 id="aparelho">3. Apagar os dados do aparelho</h2>
+        <ol class="steps">
+          <li><strong>Desinstale o app</strong>, ou vá em Configurações do Android → Apps → Mensalix → Armazenamento → <strong>Limpar dados</strong>.</li>
+          <li>Isso apaga do aparelho tudo o que você cadastrou: clientes, logins e senhas, valores, pagamentos, histórico, ícones escolhidos e o e-mail da conta Google.</li>
+        </ol>
+        <p>Atenção: desinstalar o app <strong>não apaga</strong> o backup do Google Drive (veja o passo 2) e <strong>não cancela</strong> assinaturas (veja abaixo).</p>
+
+        <h2 id="por-email">4. Pedir por e-mail</h2>
+        <p>Use esta opção para tirar dúvidas, pedir ajuda com os passos acima ou pedir a exclusão do registro de assinatura guardado no RevenueCat.</p>
+        <ol class="steps">
+          <li>Envie um e-mail para <a href="mailto:contato@meyrx.com.br?subject=Exclus%C3%A3o%20de%20conta">contato@meyrx.com.br</a> com o assunto <strong>"Exclusão de conta"</strong>.</li>
+          <li>Informe o nome do app e, se você assinou um plano, o <strong>número do pedido do Google Play</strong> (começa com "GPA.", está no recibo enviado pelo Google). Isso nos permite localizar o registro da assinatura sem pedir outros dados.</li>
+          <li>Você receberá uma confirmação por e-mail quando a exclusão for concluída.</li>
+        </ol>
+        <div class="callout">
+          <p><strong>Prazo de atendimento:</strong> respondemos em até <strong>5 dias úteis</strong> e concluímos a exclusão em até <strong>30 dias</strong>.</p>
         </div>
 
         <h2 id="apagados">Dados que são apagados</h2>
         <ul>
-          <li>Dados de cadastro: nome, e-mail, foto de perfil e credenciais de acesso.</li>
-          <li>Conteúdo criado por você no app e guardado nos nossos servidores.</li>
-          <li>Preferências e configurações associadas à conta.</li>
-          <li>Identificadores que liguem você aos dados de uso do app.</li>
+          <li>Todos os dados cadastrados no app (clientes, logins e senhas, valores, pagamentos, histórico e ícones), quando você limpa os dados ou desinstala o app.</li>
+          <li>As cópias de backup no seu Google Drive, quando você exclui os dados ocultos do app.</li>
+          <li>O e-mail da conta Google guardado no app.</li>
+          <li>O registro da assinatura no RevenueCat e as mensagens de suporte, quando você pede por e-mail.</li>
         </ul>
-        <p><mark class="todo">{{PREENCHER: ajustar a lista conforme os dados que cada app realmente guarda}}</mark></p>
 
         <h2 id="mantidos">Dados que podem ser mantidos, e por quanto tempo</h2>
-        <p>Alguns dados podem ser guardados por mais tempo quando a lei exige ou permite (art. 16 da LGPD):</p>
         <div class="table-wrap">
           <table>
             <thead>
-              <tr><th scope="col">Dado</th><th scope="col">Motivo</th><th scope="col">Prazo</th></tr>
+              <tr><th scope="col">Dado</th><th scope="col">Quem guarda e por quê</th><th scope="col">Prazo</th></tr>
             </thead>
             <tbody>
-              <tr><td>Registros de acesso ao app (data, hora e IP)</td><td>Obrigação legal: Marco Civil da Internet, art. 15</td><td>6 meses</td></tr>
-              <tr><td>Registros de compras e transações</td><td>Obrigações fiscais e contábeis</td><td>Até 5 anos</td></tr>
-              <tr><td>Dados necessários para defesa em processos</td><td>Exercício regular de direitos</td><td>Até o fim do prazo de prescrição aplicável</td></tr>
-              <tr><td>Dados estatísticos anonimizados</td><td>Não identificam você, então deixam de ser dados pessoais</td><td>Indeterminado</td></tr>
-              <tr><td>Cópias de segurança (backups)</td><td>Apagadas automaticamente no ciclo de rotação</td><td>Até 90 dias</td></tr>
+              <tr><td>Histórico de compras e pagamentos</td><td>Google Play, como responsável pela cobrança, e a MEYRX, pelas obrigações fiscais e contábeis</td><td>Até 5 anos</td></tr>
+              <tr><td>Dados de anúncios (ID de publicidade, interações)</td><td>Google, conforme a política de privacidade do Google</td><td>Conforme a política do Google</td></tr>
+              <tr><td>Dados necessários para defesa em processos</td><td>MEYRX, pelo exercício regular de direitos (art. 16 da LGPD)</td><td>Até o fim do prazo de prescrição aplicável</td></tr>
             </tbody>
           </table>
         </div>
-        <p>Durante esse período, os dados mantidos ficam guardados com segurança e só são usados para a finalidade que justificou a retenção.</p>
+        <p>Você pode redefinir ou excluir seu ID de publicidade nas configurações do Android, em <strong>Privacidade → Anúncios</strong>. O caminho pode variar conforme o aparelho.</p>
 
-        <h2 id="somente-dados">Quer apagar só alguns dados, sem excluir a conta?</h2>
-        <p>Também é possível. Envie um e-mail para <a href="mailto:contato@meyrx.com.br?subject=Exclus%C3%A3o%20de%20dados">contato@meyrx.com.br</a> com o assunto <strong>"Exclusão de dados"</strong> e diga quais dados quer remover. Atendemos no mesmo prazo de até 30 dias.</p>
+        <h2 id="assinaturas">Assinaturas</h2>
+        <p>Apagar os dados ou desinstalar o app <strong>não cancela</strong> uma assinatura. Para cancelar, abra a Play Store, toque na sua foto de perfil → <strong>Pagamentos e assinaturas → Assinaturas</strong>, escolha o app e toque em <strong>Cancelar assinatura</strong>.</p>
 
-        <h2 id="importante">Importante</h2>
-        <ul>
-          <li>A exclusão é <strong>definitiva</strong>: depois de concluída, não é possível recuperar a conta nem o conteúdo.</li>
-          <li><strong>Desinstalar o app não exclui sua conta.</strong> Use uma das opções acima.</li>
-          <li>Excluir a conta <strong>não cancela assinaturas</strong> do Google Play. Cancele antes em Google Play &gt; Pagamentos e assinaturas.</li>
-        </ul>
         <p>Mais informações estão na nossa <a href="/privacidade/">Política de Privacidade</a>.</p>
       </div>
     </div>
