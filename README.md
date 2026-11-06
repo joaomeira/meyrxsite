@@ -38,7 +38,7 @@ O cabeçalho e o rodapé são **iguais em todas as páginas** e estão copiados 
 
 | App      | Pacote                     |
 | -------- | -------------------------- |
-| Mensalix | `com.joaomeira.mensalix`   |
+| Mensalix | `br.com.meyrx.mensalix`    |
 
 ## Conteúdo pendente
 
